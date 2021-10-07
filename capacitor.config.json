@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "calmaApp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

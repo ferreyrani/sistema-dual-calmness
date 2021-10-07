@@ -1,0 +1,7 @@
+{
+  "name": "calmaApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
