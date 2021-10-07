@@ -44,7 +44,7 @@ const routes: Routes = [
       ),
   },
   {
-    path: 'on-boarding',
+    path: 'onboarding',
     loadChildren: () =>
       import('./on-boarding/on-boarding.module').then(
         (m) => m.OnBoardingPageModule
