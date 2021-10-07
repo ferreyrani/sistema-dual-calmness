@@ -38,6 +38,10 @@ const routes: Routes = [
   {
     path: 'on-boarding',
     loadChildren: () => import('./on-boarding/on-boarding.module').then( m => m.OnBoardingPageModule)
+  },
+  {
+    path: 'respiracion',
+    loadChildren: () => import('./respiracion/respiracion.module').then( m => m.RespiracionPageModule)
   }
 ];
 
