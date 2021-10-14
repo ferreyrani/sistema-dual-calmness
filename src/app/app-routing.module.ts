@@ -66,7 +66,11 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () =>
       import('./home/home.module').then((m) => m.HomePageModule),
+  },  {
+    path: 'sos',
+    loadChildren: () => import('./sos/sos.module').then( m => m.SosPageModule)
   },
+
 ];
 
 @NgModule({
