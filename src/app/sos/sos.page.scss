@@ -1,0 +1,22 @@
+app-sos{
+    ion-content{
+        text-align: center;
+         --padding:10px;
+         --margin-top:40px;
+      
+       
+    }
+ion-toolbar{
+    --background: lightsalmon;
+}
+#caja{
+      align-items: center;
+      font-size: 30px;
+      font-family: "Yanone Kaffeesatz", sans-serif;
+      --color: black;
+      margin-top: 40px;
+      text-align: center;
+      --padding-top:10px;
+}
+
+}
