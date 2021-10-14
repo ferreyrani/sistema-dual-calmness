@@ -66,9 +66,19 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () =>
       import('./home/home.module').then((m) => m.HomePageModule),
-  },  {
+  },
+
+
+
+  {
     path: 'ayudame',
-    loadChildren: () => import('./ayudame/ayudame.module').then( m => m.AyudamePageModule)
+    loadChildren: () => import('./ayudame/ayudame.module').then( m => m.AyudamePageModule) 
+  },
+    
+  {
+
+    path: 'sos',
+    loadChildren: () => import('./sos/sos.module').then( m => m.SosPageModule)
   },
 
 ];
