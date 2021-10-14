@@ -1,18 +1,31 @@
 app-ayudame {
-#botonayudame ion-button {
+#botonayudame {
     height: 50px;
     width: 100%;
     float: left;
     margin-bottom: 20px;
+    --background: blue; 
   }
 #botonemergencia  {
     height: 70px;
     width: 100%;
     float: left;
-    margin-top: 20px;  
+    margin-top: 20px;
+    --background: lightblue;
+    
+   
+    
 }
 #textoayudame  {
     font-size: 17px;
-    text-align: center;
+    
+
+}
+#imgayudame  {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+
 }
 }
