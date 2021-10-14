@@ -2,6 +2,9 @@
 // http://ionicframework.com/docs/theming/
 
 /** Ionic CSS Variables **/
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Yanone+Kaffeesatz:wght@400;700&display=swap");
+
 :root {
   /** primary **/
   --ion-color-primary: #3880ff;
@@ -232,6 +235,20 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+body {
+  font-family: "Libre Baskerville", serif;
+}
+ion-button {
+  font-family: "Libre Baskerville", serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 ion-menu-button {
   color: var(--ion-color-primary);
