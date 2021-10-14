@@ -1,13 +1,21 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>Ayudame</ion-title>
+    <ion-buttons slot="start">
+    <ion-back-button text="" defaulHref="home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    
+    <ion-title>BreatheWithMe</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <main>
-<section id="botonayudame">
-  <ion-button  expand="block">Ayudame</ion-button>
+<section>
+  <img id="imgayudame" src="/assets/icon/ayudame.png" alt="">
 </section>
 <article>
   <p id="textoayudame">
@@ -21,11 +29,12 @@
     Necesito que me recuerdes que estoy bien, que estoy segura y que no me va a pasar nada.
     <br>
     Me ayuda mucho si respiras profundamente viéndome, probablemente intente seguir tu ritmo de respiración.
-    Otra cosa que me funciona es que me intentes hacer reír o distraer con algo. Puede ser algo que me digas, algún video o cualquier cosa que se te ocurra
+    Otra cosa que me funciona es que me intentes hacer reír o distraer con algo. Puede ser algo que me digas, algún video o cualquier cosa que se te ocurra.
   </p>
 </article>
 <footer>
-  <ion-button id="botonemergencia" expand="block">Contacto de emergencia</ion-button>
+  <ion-button id="botonemergencia" expand="block" routerLink="/sos">Contacto de emergencia</ion-button>
+  
 </footer>
 </main>
 
