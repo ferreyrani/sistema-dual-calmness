@@ -80,6 +80,34 @@ const routes: Routes = [
     path: 'sos',
     loadChildren: () => import('./sos/sos.module').then( m => m.SosPageModule)
   },
+  {
+    path: 'meditacion',
+    loadChildren: () => import('./meditacion/meditacion.module').then( m => m.MeditacionPageModule)
+  },
+  {
+    path: 'candycrush',
+    loadChildren: () => import('./juegos/candycrush/candycrush.module').then( m => m.CandycrushPageModule)
+  },
+  {
+    path: 'angrybirds',
+    loadChildren: () => import('./juegos/angrybirds/angrybirds.module').then( m => m.AngrybirdsPageModule)
+  },
+  {
+    path: 'plantsvszombies',
+    loadChildren: () => import('./juegos/plantsvszombies/plantsvszombies.module').then( m => m.PlantsvszombiesPageModule)
+  },
+  {
+    path: 'sudoku',
+    loadChildren: () => import('./juegos/sudoku/sudoku.module').then( m => m.SudokuPageModule)
+  },
+  {
+    path: 'uno',
+    loadChildren: () => import('./juegos/uno/uno.module').then( m => m.UnoPageModule)
+  },
+  {
+    path: 'minecraft',
+    loadChildren: () => import('./juegos/minecraft/minecraft.module').then( m => m.MinecraftPageModule)
+  },
 
 ];
 
