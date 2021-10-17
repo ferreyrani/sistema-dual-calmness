@@ -107,7 +107,11 @@ const routes: Routes = [
   {
     path: 'minecraft',
     loadChildren: () => import('./juegos/minecraft/minecraft.module').then( m => m.MinecraftPageModule)
+  },  {
+    path: 'informacion',
+    loadChildren: () => import('./informacion/informacion.module').then( m => m.InformacionPageModule)
   },
+
 
 ];
 
