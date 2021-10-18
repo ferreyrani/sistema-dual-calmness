@@ -4,7 +4,7 @@ app-distraeme {
       width: 100%;
       float: left;
       align-items: center;
-      --background: lightblue;
+      --background:rgb(252, 194, 160);
       --background-activated:rgb(147, 147, 255);
       --border-color: black;
       --box-shadow:2px 2px 2px rgba(0, 0, 0, 0.555);
@@ -16,10 +16,9 @@ app-distraeme {
       margin-bottom: 10px;
       
     } 
-      ion-toolbar{
-        --background: lightblue;
-
-    }
+    ion-toolbar{
+      --background: rgb(252, 194, 160);
+  }
     #imgdistraeme{
       display: block;
       margin: auto;
