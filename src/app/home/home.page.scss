@@ -1,4 +1,7 @@
 app-home {
+  
+
+
   #buttons-big ion-button {
     height: 100px;
     width: 48%;
@@ -10,3 +13,16 @@ ion-title img {
   height: 45px;
   width: 85px;
 }
+
+ion-toolbar{
+  --background: lightblue;
+
+}
+
+ion-content{
+  --background: rgb(245, 241, 241);
+
+
+
+}
+
