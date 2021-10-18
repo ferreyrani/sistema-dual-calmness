@@ -1,5 +1,13 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start">
+    <ion-back-button text="" defaulHref="home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    
     <ion-title>Playlist</ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,3 +17,4 @@
     <img src="/assets/icon/spotify.png" width="100%" height="60%" >
    
 </ion-content>
+
