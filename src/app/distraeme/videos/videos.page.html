@@ -1,32 +1,45 @@
-
-
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-buttons slot="start">
-    <ion-back-button text="" defaulHref="home"></ion-back-button>
+      <ion-back-button text="" defaulHref="home"></ion-back-button>
     </ion-buttons>
 
     <ion-buttons slot="end">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    
+
     <ion-title>Videos</ion-title>
   </ion-toolbar>
 </ion-header>
 
-
-
-
-
 <ion-content>
   <header><h2>Visita nuestro canal de Youtube</h2></header>
-  <img id="youtube" src="/assets/icon/youtube1.png" width="60%" height="25%">
-  
-  <iframe src="https://www.youtube.com/watch?v=zaeitZTkWwA" width="100%" height="150px">
-  </iframe>
-  <iframe src="https://www.youtube.com/watch?v=Ts4wO2bb-sM" width="100%" height="150px">
-  </iframe>
-  <iframe src="https://www.youtube.com/watch?v=1eZepcg6aC0" width="100%" height="150px">
-  </iframe>
-
+  <img id="youtube" src="/assets/icon/youtube1.png" width="60%" height="25%" />
+  <iframe
+    width="100%"
+    height="150"
+    src="https://www.youtube.com/embed/zaeitZTkWwA"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+  <iframe
+    width="100%"
+    height="150"
+    src="https://www.youtube.com/embed/Ts4wO2bb"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+  <iframe
+    width="100%"
+    height="150"
+    src="https://www.youtube.com/embed/1eZepcg6aC0"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
 </ion-content>
