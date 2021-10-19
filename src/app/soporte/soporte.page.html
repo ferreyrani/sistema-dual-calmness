@@ -1,9 +1,23 @@
-<ion-header>
+
+
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>soporte</ion-title>
+    <ion-buttons slot="start">
+    <ion-back-button text="" defaulHref="home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    
+    <ion-title>Soporte</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <section id="buttons-big">
+
+    <ion-button expand="block" routerLink="envianosunmail">Envianos un Mail con tus consultas</ion-button>
+  </section>
 
 </ion-content>
