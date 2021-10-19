@@ -1,33 +1,42 @@
-
-
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-buttons slot="start">
-    <ion-back-button text="" defaulHref="home"></ion-back-button>
+      <ion-back-button text="" defaulHref="home"></ion-back-button>
     </ion-buttons>
 
     <ion-buttons slot="end">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    
+
     <ion-title>Juegos</ion-title>
   </ion-toolbar>
 </ion-header>
 
-
-
-
-
 <ion-content>
   <section id="buttons-big">
-    
     <header><h2>¿Qué queres jugar?</h2></header>
-    <ion-button expand="block" routerLink="1">Candy Crush</ion-button>
+    <a
+      ion-button
+      class="
+        ios
+        button button-block button-solid
+        ion-activatable ion-focusable
+        hydrated
+      "
+      href="https://apps.apple.com/es/app/candy-crush-saga/id553834731"
+      target="_blank"
+      >Candy Crush</a
+    >
     <ion-button expand="block" routerLink="2">Angrybirds</ion-button>
     <ion-button expand="block" routerLink="3">Plants vs zombies</ion-button>
     <ion-button expand="block" routerLink="3">Sudoku</ion-button>
     <ion-button expand="block" routerLink="3">UNO</ion-button>
     <ion-button expand="block" routerLink="3">Minecraft</ion-button>
-    <img id="imgajugar" src="/assets/icon/Ajugar.png" width="70%" height="70%">
+    <img
+      id="imgajugar"
+      src="/assets/icon/Ajugar.png"
+      width="70%"
+      height="70%"
+    />
   </section>
 </ion-content>
