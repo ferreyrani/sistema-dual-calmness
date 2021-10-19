@@ -1,0 +1,48 @@
+app-perfil {
+    ion-input { 
+        --padding-bottom: 15px !important;
+        font-size: 25px !important;
+        font-weight: bold !important;
+        font-family: "Yanone Kaffeesatz", sans-serif !important;
+        --color: rgb(105, 105, 105) ;
+        text-align: center;
+        display: block;
+    }
+#fotoperfil {
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10%;
+   
+}
+ion-content{
+    --background: rgb(245, 241, 241);}
+    ion-toolbar{
+        --background: rgb(208, 228, 255);
+    }
+ #facebook{
+ width: 30px ;
+ height: 30px ;
+ display: block;
+ float: left;
+ margin: auto;
+ 
+        }
+
+#instagram{
+    width: 30px ;
+    height: 30px ;
+    display: block;
+    float: left;
+    margin: auto;
+    
+           }
+#youtube{
+    width: 30px ;
+    height: 30px ;
+    display: block;
+    margin: auto;
+    float: none;
+                   }
+   }
+  
