@@ -1,9 +1,29 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>perfil</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button text="" defaultHref="home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title> Perfil</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <img id="fotoperfil" src="/assets/icon/fotoperfil.jpg" > 
+  <section>
+    <ion-input value placeholder="Nombre Completo"></ion-input>
+    <ion-input value placeholder="Edad"></ion-input>
+    <ion-input value placeholder="Fecha de Nacimiento"></ion-input>
+    <ion-input value placeholder="Telefono"></ion-input>
+  </section>
 
+  <!-- <footer>
+    <img id="facebook" src="/assets/icon/facebook.png" > 
+    <img id="instagram" src="/assets/icon/instagram.png" >
+    <img id="youtube" src="/assets/icon/youtube.png" >
+  </footer>  \-->
 </ion-content>
