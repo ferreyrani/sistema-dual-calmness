@@ -1,20 +1,25 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-buttons slot="start">
-    <ion-back-button text="" defaulHref="home"></ion-back-button>
+      <ion-back-button text="" defaulHref="home"></ion-back-button>
     </ion-buttons>
 
     <ion-buttons slot="end">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    
+
     <ion-title>Playlist</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <header><h2>Escuchemos algo!</h2></header>
-    <img id="spotify" src="/assets/icon/spotify.png" width="100%" height="60%" >
-   
+  <iframe
+    src="https://open.spotify.com/embed/episode/1a4nj6ui6jlIvJRC6qseSG?utm_source=generator"
+    width="100%"
+    height="232"
+    frameborder="0"
+    allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  ></iframe>
 </ion-content>
-

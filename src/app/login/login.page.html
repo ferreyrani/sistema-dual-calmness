@@ -1,27 +1,29 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>login</ion-title>
+    <ion-title>Login</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <img class="logo" src="/assets/icon/LogoBreath.png" />
-  <p>
+  <p id="textologin">
     Una aplicación destinada a aquellas personas que sufran de ataques de
     ansiedad o pánico. Te dará herramientas para manejar esos momentos tan
     difíciles, como por ejemplo: llamados de emergencia, sección de respiración
     consciente, blog de comunicación, información útil sobre trastornos de
     ansiedad, entre otras.
   </p>
-
-  <ion-input placeholder="Enter Input"></ion-input>
-  <ion-input placeholder="Enter Input"></ion-input>
-  <ion-input placeholder="Enter Input"></ion-input>
-  <ion-input placeholder="Enter Input"></ion-input>
-
+  <section>
+ <div>
+  <ion-input placeholder="Nombre Completo"></ion-input>
+  <ion-input placeholder="E-mail"></ion-input>
+  <ion-input placeholder="Contraseña"></ion-input>
+  <ion-input  placeholder="Telefono"></ion-input>
+</div>
   <div>
     <input type="checkbox" />
     <ion-label>Terminos y condiciones</ion-label>
   </div>
-  <ion-button expand="block" routerLink="/intro-config">Ingresar</ion-button>
+</section>
+  <ion-button expand="block" routerLink="/login">Crear Cuenta</ion-button>
 </ion-content>

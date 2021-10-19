@@ -1,31 +1,27 @@
 app-juegos {
-    #buttons-big ion-button {
-      height: 70px;
-      width: 30%;
-      float: left;
-      align-items: center;
-      --background: rgb(252, 194, 160);
-      --background-activated:rgb(147, 147, 255);
-      --border-color: black;
-      --box-shadow:2px 2px 2px rgba(0, 0, 0, 0.555);
-      --border-style:solid;
-      --border-width:0px;
-      font-size: 20px;
-      font-family: "Yanone Kaffeesatz", sans-serif;
-      --color: black;
-      margin-bottom: 50px;
-      margin-bottom: 20px;
-      
-    } 
-      ion-toolbar{
-        --background: rgb(252, 194, 160);
-
-    }
-    #imgajugar{
-      display: block;
-      margin: auto;
-
-
-    }
-
+  #buttons-big a {
+    height: 70px;
+    display: block;
+    width: 30%;
+    float: left;
+    align-items: center;
+    --background: rgb(252, 194, 160);
+    --background-activated: rgb(147, 147, 255);
+    --border-color: black;
+    --box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
+    --border-style: solid;
+    --border-width: 0px;
+    font-size: 20px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    --color: black;
+    margin-bottom: 50px;
+    margin-bottom: 20px;
+  }
+  ion-toolbar {
+    --background: rgb(252, 194, 160);
+  }
+  #imgajugar {
+    display: block;
+    margin: auto;
+  }
 }
