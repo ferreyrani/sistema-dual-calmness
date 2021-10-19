@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'pre-login',
     pathMatch: 'full',
   },
   {
@@ -68,51 +68,73 @@ const routes: Routes = [
       import('./home/home.module').then((m) => m.HomePageModule),
   },
 
-
-
   {
     path: 'ayudame',
-    loadChildren: () => import('./ayudame/ayudame.module').then( m => m.AyudamePageModule) 
+    loadChildren: () =>
+      import('./ayudame/ayudame.module').then((m) => m.AyudamePageModule),
   },
-    
-  {
 
+  {
     path: 'sos',
-    loadChildren: () => import('./sos/sos.module').then( m => m.SosPageModule)
+    loadChildren: () => import('./sos/sos.module').then((m) => m.SosPageModule),
   },
   {
     path: 'meditacion',
-    loadChildren: () => import('./meditacion/meditacion.module').then( m => m.MeditacionPageModule)
+    loadChildren: () =>
+      import('./meditacion/meditacion.module').then(
+        (m) => m.MeditacionPageModule
+      ),
   },
   {
     path: 'candycrush',
-    loadChildren: () => import('./juegos/candycrush/candycrush.module').then( m => m.CandycrushPageModule)
+    loadChildren: () =>
+      import('./juegos/candycrush/candycrush.module').then(
+        (m) => m.CandycrushPageModule
+      ),
   },
   {
     path: 'angrybirds',
-    loadChildren: () => import('./juegos/angrybirds/angrybirds.module').then( m => m.AngrybirdsPageModule)
+    loadChildren: () =>
+      import('./juegos/angrybirds/angrybirds.module').then(
+        (m) => m.AngrybirdsPageModule
+      ),
   },
   {
     path: 'plantsvszombies',
-    loadChildren: () => import('./juegos/plantsvszombies/plantsvszombies.module').then( m => m.PlantsvszombiesPageModule)
+    loadChildren: () =>
+      import('./juegos/plantsvszombies/plantsvszombies.module').then(
+        (m) => m.PlantsvszombiesPageModule
+      ),
   },
   {
     path: 'sudoku',
-    loadChildren: () => import('./juegos/sudoku/sudoku.module').then( m => m.SudokuPageModule)
+    loadChildren: () =>
+      import('./juegos/sudoku/sudoku.module').then((m) => m.SudokuPageModule),
   },
   {
     path: 'uno',
-    loadChildren: () => import('./juegos/uno/uno.module').then( m => m.UnoPageModule)
+    loadChildren: () =>
+      import('./juegos/uno/uno.module').then((m) => m.UnoPageModule),
   },
   {
     path: 'minecraft',
-    loadChildren: () => import('./juegos/minecraft/minecraft.module').then( m => m.MinecraftPageModule)
-  },  {
-    path: 'informacion',
-    loadChildren: () => import('./informacion/informacion.module').then( m => m.InformacionPageModule)
+    loadChildren: () =>
+      import('./juegos/minecraft/minecraft.module').then(
+        (m) => m.MinecraftPageModule
+      ),
   },
-
-
+  {
+    path: 'informacion',
+    loadChildren: () =>
+      import('./informacion/informacion.module').then(
+        (m) => m.InformacionPageModule
+      ),
+  },
+  {
+    path: 'pre-login',
+    loadChildren: () =>
+      import('./pre-login/pre-login.module').then((m) => m.PreLoginPageModule),
+  },
 ];
 
 @NgModule({
