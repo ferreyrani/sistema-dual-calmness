@@ -3,7 +3,7 @@ app-juegos {
     height: 70px;
     display: block;
     width: 30%;
-    float: left;
+    float: right;
     align-items: center;
     --background: rgb(252, 194, 160);
     --background-activated: rgb(147, 147, 255);
@@ -14,8 +14,8 @@ app-juegos {
     font-size: 20px;
     font-family: "Yanone Kaffeesatz", sans-serif;
     --color: black;
-    margin-bottom: 50px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    padding-left: 10px;
   }
   ion-toolbar {
     --background: rgb(252, 194, 160);
@@ -24,5 +24,15 @@ app-juegos {
     display: block;
     margin: auto;
   }
-
+  h2{
+    margin-top: 18px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  ion-content{
+    --background: rgb(245, 241, 241);
+  
+  
+  
+  }
 }
