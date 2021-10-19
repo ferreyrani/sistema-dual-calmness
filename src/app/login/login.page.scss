@@ -1,8 +1,10 @@
 app-login {
     ion-input { 
         --padding-bottom: 30px !important;
-        font-size: 18px !important;
+        font-size: 15px !important;
         font-weight: bold;
+        font-family: "Yanone Kaffeesatz", sans-serif;
+        --color: rgb(105, 105, 105);
 
       }
       #textologin { 
@@ -13,5 +15,29 @@ app-login {
     
 
       }
+      ion-content{
+        --background: rgb(245, 241, 241);}
+        ion-toolbar{
+            --background: rgb(208, 228, 255);
+        }
+ion-button {
+            height: 60px;
+            width: 100%;
+            float: left;
+            align-items: center;
+            --background:rgb(208, 228, 255);
+            --background-activated:rgb(147, 147, 255);
+            --border-color: black;
+            --box-shadow:2px 2px 2px rgba(0, 0, 0, 0.555);
+            --border-style:solid;
+            --border-width:0px;
+            font-size: 40px;
+            font-family: "Yanone Kaffeesatz", sans-serif;
+            --color: black;
+            margin-bottom: 10px;
+            
      
+        }
+        
+    
 }
