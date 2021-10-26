@@ -150,11 +150,8 @@ const routes: Routes = [
   {
     path: 'soporte',
     loadChildren: () => import('./soporte/soporte.module').then( m => m.SoportePageModule)
-  },  {
-    path: 'idioma',
-    loadChildren: () => import('./idioma/idioma.module').then( m => m.IdiomaPageModule)
   },
-
+  
 ];
 
 @NgModule({
